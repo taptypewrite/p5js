@@ -1,0 +1,44 @@
+html,
+body,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 8pt;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 14pt;
+	font-weight: 300;
+	line-height: 20pt;
+}
+canvas {
+	margin-top: 8pt;
+}
+
+li {
+	list-style: none;
+	padding: 4pt;
+	border: 1pt solid;
+}
+
+li:first-child {
+	border-bottom: none;
+}
+
+li:hover {
+	background-color: black;
+	color: white;
+}
+
+.click {
+	z-index: 1;
+	background-color: rgba(200, 200, 200, 0.6);
+}
+
+#remove {
+	z-index: 1;
+	background-color: red;
+	border-color: white;
+	color: white;
+}
